@@ -40,7 +40,7 @@ const Home = () => {
         <h2 className="text-6xl md:text-8xl pt-5 fff">&lt;Code of Chaos&gt;</h2>
         <h2 className="text-xl md:text-3xl pt-5 cs">at Aatmatrisha 2022</h2>
         <h5 className="text-2xl pt-12 cs">
-          on <span className="underline">April 23rd 2022</span>{" "}
+          on <span className="underline">Saturday, 23rd April</span>{" "}
         </h5>
         <div className="flex flex-wrap justify-center md:gap-12 gap-6 pt-12">
           <div className="timer-circle">
