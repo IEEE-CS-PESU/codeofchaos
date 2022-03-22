@@ -1,45 +1,54 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import logo from "./images/ieeelogo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="z-10 w-full shadow-xl bg-[#ffffff36]">
+      <nav className="z-10 w-full shadow-xl ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 py-2">
           <div className="flex items-center justify-between h-20 ">
             <div className="flex items-center w-full justify-between">
               <div className="flex-shrink-0">
-                <img className="h-20" src={logo} alt="Workflow" />
+                <a
+                  href="https://ieeecspesu.tech/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img className="h-20" src={logo} alt="Workflow" />
+                </a>
               </div>
               <div className="hidden md:block">
-                <div className="ml-10 flex items-baseline space-x-4">
+                <div className="ml-10 flex items-middle space-x-9">
                   <a
                     href="/"
-                    className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
+                    className="text-[#ff1c42] px-3 py-2 rounded-md text-lg font-medium"
                   >
-                    Home
+                    <FontAwesomeIcon
+                      icon={faInstagram}
+                      className="text-4xl hover:text-[#f8a219]"
+                    />
                   </a>
                   <a
                     href="/events"
-                    className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
+                    className="text-[#009bee] pr-3 py-2 rounded-md text-lg font-medium"
                   >
-                    Events
+                    <FontAwesomeIcon
+                      icon={faLinkedinIn}
+                      className="text-4xl hover:text-[#f8a219]"
+                    />
                   </a>
 
                   <a
-                    href="/team"
-                    className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
+                    href="https://ieeecspesu.tech/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white border-2 hover:bg-[#f8a219] hover:text-white px-3 py-2 rounded-lg text-lg font-medium align-middle pt-3 pl-3"
                   >
-                    Team
-                  </a>
-
-                  <a
-                    href="/contact"
-                    className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
-                  >
-                    Contact Us
+                    Visit IEEE CS PESU
                   </a>
                 </div>
               </div>
@@ -103,32 +112,35 @@ function Nav() {
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
               <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <div className="text-center">hbhj</div>
-                <div className="flex justify-center">
-                <a
-                  href="/"
-                  className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Home
-                </a>
-                <a
-                  href="/events"
-                  className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Events
-                </a>
-                <a
-                  href="/team"
-                  className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Team
-                </a>
-                <a
-                  href="/contact"
-                  className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Contact Us
-                </a>
+                <div className="text-center pt-6">
+                  <a
+                    href="https://ieeecspesu.tech/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white border-2 hover:bg-[#f8a219] hover:text-white px-3 py-2 rounded-lg text-lg font-medium align-middle pt-3 pl-3"
+                  >
+                    Visit IEEE CS PESU
+                  </a>
+                </div>
+                <div className="flex justify-center pt-5 space-x-8">
+                  <a
+                    href="/"
+                    className="text-[#ff1c42] px-3 py-2 rounded-md text-lg font-medium"
+                  >
+                    <FontAwesomeIcon
+                      icon={faInstagram}
+                      className="text-4xl hover:text-[#f8a219]"
+                    />
+                  </a>
+                  <a
+                    href="/events"
+                    className="text-[#009bee] pr-3 py-2 rounded-md text-lg font-medium"
+                  >
+                    <FontAwesomeIcon
+                      icon={faLinkedinIn}
+                      className="text-4xl hover:text-[#f8a219]"
+                    />
+                  </a>
                 </div>
               </div>
             </div>

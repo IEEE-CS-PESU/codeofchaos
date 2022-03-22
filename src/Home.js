@@ -36,7 +36,6 @@ const Home = () => {
         <h2 className="text-2xl pt-5">presents</h2>
         <h2 className="text-6xl pt-5">Code of Chaos</h2>
         <h5 className="text-2xl pt-12">April 23rd 2022</h5>
-
         <div className="flex flex-wrap justify-center md:gap-12 gap-6 pt-12">
           <div className="timer-circle">
             <div>
@@ -155,7 +154,9 @@ const Home = () => {
                     >
                       Register Now
                     </a>
-                    <p className="text-gray-300 pt-2">*opens soon, stay tuned!</p>
+                    <p className="text-gray-300 pt-2">
+                      *opens soon, stay tuned!
+                    </p>
                   </div>
                   <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
                     <div class="container mx-auto w-full h-full">
@@ -186,11 +187,14 @@ const Home = () => {
                               Registration
                             </h4>
                             <p class="text-sm md:text-xl leading-snug text-gray-50 text-opacity-100">
-                              {/* Pick your favourite event(s) and register in that
-                              event by filling the form corresponding to that
-                              event. Its that easy :) */}
-                              <span className="italic">Hey now, you're an all-star, get your game on, go play!</span>  :)<br />
-                              Register in groups of two to play 5 exhilarating games at the one of a kind arena by IEEE CS PESU
+                              <span className="italic">
+                                Hey now, you're an all-star, get your game on,
+                                go play!
+                              </span>{" "}
+                              :)
+                              <br />
+                              Register in groups of two to play 5 exhilarating
+                              games at the one of a kind arena by IEEE CS PESU
                             </p>
                           </div>
                         </div>
@@ -204,10 +208,19 @@ const Home = () => {
                               Participation
                             </h4>
                             <p class="text-sm md:text-xl leading-snug text-gray-50 text-opacity-100">
-                              
-                             <span className="font-bold underline underline-offset-3">Location</span> - <span className="italic">3rd Floor, BE Block, PES University </span>
+                              <span className="font-bold underline underline-offset-3">
+                                Location
+                              </span>{" "}
+                              -{" "}
+                              <span className="italic">
+                                3rd Floor, BE Block, PES University{" "}
+                              </span>
                               (Tentative) <br />
-                              <span className="font-bold underline underline-offset-3">Time</span>  - <span className="italic">2:00 PM IST </span> <br />
+                              <span className="font-bold underline underline-offset-3">
+                                Time
+                              </span>{" "}
+                              - <span className="italic">2:00 PM IST </span>{" "}
+                              <br />
                               Registered participants will receive a
                               confirmation e-mail with other information and
                               things to carry to the venue(if any).
@@ -224,13 +237,16 @@ const Home = () => {
                               Winner Declaration
                             </h4>
                             <p class="text-sm md:text-xl leading-snug text-gray-50 text-opacity-100">
-                              The top 3 ultimate genius teams will be revealed on 24th April, 2022 and the results will be announced on the IEEE CS PESU instagram handle and whatsapp groups.
+                              The top 3 ultimate genius teams will be revealed
+                              on 24th April, 2022 and the results will be
+                              announced on the IEEE CS PESU instagram handle and
+                              whatsapp groups.
                             </p>
                           </div>
                         </div>
                       </div>
                       <img
-                        class="mx-auto -mt-16"
+                        class="mx-auto -mt-5"
                         src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png"
                         alt=""
                       />
