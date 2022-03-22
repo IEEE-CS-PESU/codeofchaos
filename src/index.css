@@ -16,6 +16,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+.fff{
+  font-family: 'Dancing Script', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+.cs{
+  font-family: 'Monoton', cursive;
+  font-family: 'Rye', cursive;
+  font-family: 'Pompiere', cursive;
+  font-family: 'Fjalla One', sans-serif;
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 

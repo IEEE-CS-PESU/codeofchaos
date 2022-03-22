@@ -29,44 +29,50 @@ const Home = () => {
   return (
     <>
       <Nav />
-      <div className="text-white w-full pt-32 text-center">
-        <h1 className="text-5xl md:text-5xl lg:text-7xl font-bold p-1 leading-20">
+      <div className="text-white w-full pt-12 md:pt-32 text-center">
+        <h1 className="text-[#f8a219] hidden md:block text-6xl md:text-5xl lg:text-7xl font-bold p-1 leading-20">
           IEEE Computer Society, PES University
         </h1>
-        <h2 className="text-2xl pt-5">presents</h2>
-        <h2 className="text-6xl pt-5">Code of Chaos</h2>
-        <h5 className="text-2xl pt-12">April 23rd 2022</h5>
+        <h1 className="text-[#f8a219] md:hidden text-6xl md:text-5xl lg:text-7xl font-bold p-1 leading-20">
+          IEEE Computer Society, <br /> <span className="text-3xl relative top-[-15px]">PES University</span>
+        </h1>
+        <h2 className="text-lg md:text-2xl pt-5 cs">presents</h2>
+        <h2 className="text-6xl md:text-8xl pt-5 fff">&lt;Code of Chaos&gt;</h2>
+        <h2 className="text-xl md:text-3xl pt-5 cs">at Aatmatrisha 2022</h2>
+        <h5 className="text-2xl pt-12 cs">
+          on <span className="underline">April 23rd 2022</span>{" "}
+        </h5>
         <div className="flex flex-wrap justify-center md:gap-12 gap-6 pt-12">
           <div className="timer-circle">
             <div>
-              <span className="countdown timer-count" x-text="days">
+              <span className="countdown timer-count cs" x-text="days">
                 {timeLeft.days}
               </span>
-              <span className="timer-type text-2xl">Days</span>
+              <span className="timer-type text-2xl cs">Days</span>
             </div>
           </div>
           <div className="timer-circle">
             <div>
-              <span className="timer-count" x-text="hours">
+              <span className="timer-count cs" x-text="hours">
                 {timeLeft.hours}
               </span>
-              <span className="timer-type">Hours</span>
+              <span className="timer-type cs">Hours</span>
             </div>
           </div>
           <div className="timer-circle">
             <div>
-              <span className="timer-count" x-text="minutes">
+              <span className="timer-count cs" x-text="minutes">
                 {timeLeft.minutes}
               </span>
-              <span className="timer-type">Minutes</span>
+              <span className="timer-type cs">Minutes</span>
             </div>
           </div>
           <div className="timer-circle">
             <div>
-              <span className="countdown timer-count" x-text="seconds">
+              <span className="countdown timer-count cs" x-text="seconds">
                 {timeLeft.seconds}
               </span>
-              <span className="timer-type">Seconds</span>
+              <span className="timer-type cs">Seconds</span>
             </div>
           </div>
         </div>
@@ -107,7 +113,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="pb-12">
+          <div className="pb-4">
             <div class="container-glass w-24">
               <div className="h-32">
                 <lottie-player
@@ -128,7 +134,7 @@ const Home = () => {
         <div className="h-screen text-black">
           <div className="mx-auto">
             <section>
-              <div class="text-white py-8">
+              <div class="text-white pb-8">
                 <div class="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
                   <div class="flex items-center flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
                     <p class="ml-2 text-yellow-300 uppercase tracking-loose text-2xl pb-3">
@@ -148,12 +154,12 @@ const Home = () => {
                     >
                       Register Now
                     </a> */}
-                    <a
+                    <p
                       href="/"
                       class="cursor-not-allowed bg-transparent text-gray-400 rounded shadow hover:shadow-lg py-2 px-4 border border-gray-400"
                     >
                       Register Now
-                    </a>
+                    </p>
                     <p className="text-gray-300 pt-2">
                       *opens soon, stay tuned!
                     </p>
