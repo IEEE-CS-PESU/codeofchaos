@@ -25,6 +25,8 @@ function Nav() {
                 <div className="ml-10 flex items-middle space-x-9">
                   <a
                     href="https://instagram.com/ieee.cs.pesu"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-[#ff1c42] px-3 py-2 rounded-md text-lg font-medium"
                   >
                     <FontAwesomeIcon
@@ -34,6 +36,8 @@ function Nav() {
                   </a>
                   <a
                     href="https://www.linkedin.com/company/ieee-cs-pesu/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-[#009bee] pr-3 py-2 rounded-md text-lg font-medium"
                   >
                     <FontAwesomeIcon
@@ -125,6 +129,8 @@ function Nav() {
                 <div className="flex justify-center pt-5 space-x-8">
                   <a
                     href="https://instagram.com/ieee.cs.pesu"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-[#ff1c42] px-3 py-2 rounded-md text-lg font-medium"
                   >
                     <FontAwesomeIcon
@@ -134,6 +140,8 @@ function Nav() {
                   </a>
                   <a
                     href="https://www.linkedin.com/company/ieee-cs-pesu/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-[#009bee] pr-3 py-2 rounded-md text-lg font-medium"
                   >
                     <FontAwesomeIcon
