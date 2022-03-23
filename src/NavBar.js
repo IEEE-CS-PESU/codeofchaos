@@ -24,7 +24,7 @@ function Nav() {
               <div className="hidden md:block">
                 <div className="ml-10 flex items-middle space-x-9">
                   <a
-                    href="/"
+                    href="https://instagram.com/ieee.cs.pesu"
                     className="text-[#ff1c42] px-3 py-2 rounded-md text-lg font-medium"
                   >
                     <FontAwesomeIcon
@@ -33,7 +33,7 @@ function Nav() {
                     />
                   </a>
                   <a
-                    href="/events"
+                    href="https://www.linkedin.com/company/ieee-cs-pesu/"
                     className="text-[#009bee] pr-3 py-2 rounded-md text-lg font-medium"
                   >
                     <FontAwesomeIcon
@@ -124,7 +124,7 @@ function Nav() {
                 </div>
                 <div className="flex justify-center pt-5 space-x-8">
                   <a
-                    href="/"
+                    href="https://instagram.com/ieee.cs.pesu"
                     className="text-[#ff1c42] px-3 py-2 rounded-md text-lg font-medium"
                   >
                     <FontAwesomeIcon
@@ -133,7 +133,7 @@ function Nav() {
                     />
                   </a>
                   <a
-                    href="/events"
+                    href="https://www.linkedin.com/company/ieee-cs-pesu/"
                     className="text-[#009bee] pr-3 py-2 rounded-md text-lg font-medium"
                   >
                     <FontAwesomeIcon
