@@ -113,7 +113,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="pb-4">
+          <div className="pb-4 md:pb-12">
             <div class="container-glass w-24">
               <div className="h-32">
                 <lottie-player
