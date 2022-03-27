@@ -34,7 +34,8 @@ const Home = () => {
           IEEE Computer Society, PES University
         </h1>
         <h1 className="text-[#f8a219] md:hidden text-6xl md:text-5xl lg:text-7xl font-bold p-1 leading-20">
-          IEEE Computer Society, <br /> <span className="text-3xl relative top-[-15px]">PES University</span>
+          IEEE Computer Society, <br />{" "}
+          <span className="text-3xl relative top-[-15px]">PES University</span>
         </h1>
         <h2 className="text-lg md:text-2xl pt-5 cs">presents</h2>
         <h2 className="text-6xl md:text-8xl pt-5 fff">&lt;Code of Chaos&gt;</h2>
@@ -131,6 +132,35 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <div className="text-center">
+          <div className=" md:w-2/5 mx-auto px-5 pt-9">
+            <h1 className="text-yellow-300 uppercase tracking-loose text-2xl pb-3">Event Rules - </h1>
+            <ol type = 'I' className="text-justify text-lg list-decimal">
+              <li className="pb-3 pl-2">
+                Register in groups of two to play 5 exhilarating games at the
+                one of a kind arena by IEEE CS PESU.
+              </li>
+              <li className="pb-3 pl-2">
+                Start with playing one of our tech games and compete with other
+                teams playing concurrently
+              </li>
+              <li className="pb-3 pl-2">
+                Perform well and get ranked to earn one of our exclusive IEEE CS
+                crypto coins
+              </li>
+              <li className="pb-3 pl-2">
+                Cross the special performance threshold and battle against
+                others or defend your self using power cards to unlock
+                superpowers
+              </li>
+              <li className="pl-2">
+                Use your wits and take a risk by investing these earned coins to
+                multiply them based on real-time market projections (optional,
+                but can either grow your coins or deplete them!)
+              </li>
+            </ol>
+          </div>
+        </div>
         <div className="h-screen text-black">
           <div className="mx-auto">
             <section>
@@ -144,9 +174,8 @@ const Home = () => {
                       Timeline for the event
                     </p>
                     <p class="text-sm md:text-xl text-gray-50 mb-4 pt-2">
-                      Here’s your guide to the Code of Chaos 2022 process. Go
-                      through all the steps to know the exact process of the
-                      event.
+                      Here’s your guide to the Code of Chaos 2022. Go through
+                      all the steps to know the exact process of the event.
                     </p>
                     {/* <a
                       href="/"
@@ -154,7 +183,7 @@ const Home = () => {
                     >
                       Register Now
                     </a> */}
-                    <p
+                    {/* <p
                       href="/"
                       class="cursor-not-allowed bg-transparent text-gray-400 rounded shadow hover:shadow-lg py-2 px-4 border border-gray-400"
                     >
@@ -162,11 +191,11 @@ const Home = () => {
                     </p>
                     <p className="text-gray-300 pt-2">
                       *opens soon, stay tuned!
-                    </p>
+                    </p> */}
                   </div>
                   <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
                     <div class="container mx-auto w-full h-full">
-                      <div class="relative wrap overflow-hidden p-5 h-full">
+                      <div class="relative wrap overflow-hidden md:p-5 p-1 h-full">
                         <div
                           class="border-2-2 border-yellow-555 absolute h-full border"
                           style={{
@@ -187,7 +216,7 @@ const Home = () => {
                           <div class="order-1 w-5/12"></div>
                           <div class="order-1 w-5/12 px-1 py-4 text-right">
                             <p class="mb-3 text-2xl text-yellow-300">
-                              1-3 April, 2022
+                              28th May, 2022 Onwards
                             </p>
                             <h4 class="mb-3 font-bold text-2xl md:text-5xl">
                               Registration
@@ -199,8 +228,19 @@ const Home = () => {
                               </span>{" "}
                               :)
                               <br />
-                              Register in groups of two to play 5 exhilarating
-                              games at the one of a kind arena by IEEE CS PESU
+                              <span className="font-bold underline underline-offset-3">
+                                Location
+                              </span>{" "}
+                              -{" "}
+                              <span className="italic">
+                                BE Block, OAT, 13th Floor, PiRCube{" "}
+                              </span>
+                              <br />
+                              <span className="font-bold underline underline-offset-3">
+                                Time
+                              </span>{" "}
+                              - <span className="italic">Short Break, Lunch Break, 2:30 PM</span>{" "}
+                              <br />
                             </p>
                           </div>
                         </div>
