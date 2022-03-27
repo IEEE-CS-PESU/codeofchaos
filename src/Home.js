@@ -216,7 +216,7 @@ const Home = () => {
                           <div class="order-1 w-5/12"></div>
                           <div class="order-1 w-5/12 px-1 py-4 text-right">
                             <p class="mb-3 text-2xl text-yellow-300">
-                              28th May, 2022 Onwards
+                              28th March, 2022 Onwards
                             </p>
                             <h4 class="mb-3 font-bold text-2xl md:text-5xl">
                               Registration
