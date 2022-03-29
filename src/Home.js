@@ -261,11 +261,11 @@ const Home = () => {
                               <span className="italic">
                                 3rd Floor, BE Block, PES University{" "}
                               </span>
-                              (Tentative) <br />
+                              <br />
                               <span className="font-bold underline underline-offset-3">
                                 Time
                               </span>{" "}
-                              - <span className="italic">2:00 PM IST </span>{" "}
+                              - <span className="italic">9:00 AM IST </span>{" "}
                               <br />
                               Registered participants will receive a
                               confirmation e-mail with other information and
